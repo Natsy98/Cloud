@@ -1,0 +1,38 @@
+CloudApp/
+├── app/
+│   ├── build.gradle
+│   ├── src/
+│   │   └── main/
+│   │       ├── AndroidManifest.xml
+│   │       ├── java/
+│   │       │   └── com/
+│   │       │       └── cloud/
+│   │       │           ├── MainActivity.java
+│   │       │           ├── ChatActivity.java
+│   │       │           ├── KonaAssistant.java
+│   │       │           ├── LostTracker.java
+│   │       │           ├── SurvivalMode.java
+│   │       │           ├── SignTranslator.java
+│   │       │           └── BlindAssist.java
+│   │       └── res/
+│   │           ├── layout/
+│   │           │   └── activity_main.xml
+│   │           ├── values/
+│   │           │   └── strings.xml
+│   │           └── drawable/
+│   │               └── icon_cloud.png
+│
+├── gradle/
+│   └── wrapper/
+│       ├── gradle-wrapper.jar
+│       └── gradle-wrapper.properties
+│
+├── .github/
+│   └── workflows/
+│       └── build_apk.yml
+│
+├── gradlew
+├── gradlew.bat
+├── build.gradle
+├── settings.gradle
+└── README.md
